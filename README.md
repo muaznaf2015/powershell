@@ -11,4 +11,5 @@ This repository helps to keep all the PowerShell and Batch scripts needed for da
 | **mHypv** | Administering Hyper-V |
 | **mMgmt** | Administering Endpoint & Server (Server, Desktop, Laptop) |
 | **mPrint** | Administering Print Server |
+| **mSmtp** | Administering SMTP Server and Email |
 | **mWsus** | Managing WSUS solution |
