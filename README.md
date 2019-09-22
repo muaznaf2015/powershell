@@ -7,7 +7,7 @@ This repository helps to keep all the PowerShell and Batch scripts needed for da
 | :--- | :--- |
 | **mADUC** | Administering AD Account (Computer, User) |
 | **mFile** | Administering File Server |
-| **mVisor** | Administering Hyper-V |
+| **mHypV** | Administering Hyper-V |
 | **mMgmt** | Administering Endpoint & Server (Server, Desktop, Laptop) |
 | **mPrint** | Administering Print Server |
 | **mWSUS** | Managing WSUS solution |
