@@ -7,3 +7,8 @@ This repository helps to keep all the PowerShell and Batch scripts needed for da
 - **WSUS** - *Managing WSUS solution*
 - **Hyper-V** - *Administering Hyper-V*
 - **Mgmt_Comp** - *Administering Endpoint & Server (Server, Desktop, Laptop)*
+
+| Folder | Description |
+| --- | --- |
+| AD_Acct | Administering AD Account (Computer, User) |
+| - **AD_Acct** | *Administering AD Account (Computer, User)* |
