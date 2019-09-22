@@ -1,2 +1,2 @@
 ### ***Learn basic PowerShell/Batch scripting***
-- PSVersion - check Powershell version
+- `PSVersion` - check Powershell version
