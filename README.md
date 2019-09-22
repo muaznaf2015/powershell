@@ -3,7 +3,7 @@ This repository helps to keep all the PowerShell and Batch scripts needed for da
 
 
 
-| **Folder** | **Description** |
+| **__Folder__** | **__Description__** |
 | :--- | :--- |
 | **mADUC** | Administering AD Account (Computer, User) |
 | **mFile** | Administering File Server |
