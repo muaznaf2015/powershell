@@ -8,6 +8,7 @@ This repository helps to keep all the PowerShell and Batch scripts needed for da
 | **bLearn** | Learn basic PowerShell/Batch scripting |
 | **mAduc** | Administering AD Account (Computer, User) |
 | **mFile** | Administering File Server |
+| **mGpmc** | Managing GPO solution |
 | **mHypv** | Administering Hyper-V |
 | **mMgmt** | Administering Endpoint & Server (Server, Desktop, Laptop) |
 | **mPrint** | Administering Print Server |
