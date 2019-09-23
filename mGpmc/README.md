@@ -1,2 +1,2 @@
 ### ***Managing GPO solution***
-- `getgpo` - Get GPO available
+- `psgetgpo` - Search for specific GPO
