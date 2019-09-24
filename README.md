@@ -7,6 +7,7 @@ This repository helps to keep all the PowerShell and Batch scripts needed for da
 | :--- | :--- |
 | **bLearn** | Learn basic PowerShell/Batch scripting |
 | **mAduc** | Administering AD Account (Computer, User) |
+| **mDhcp** | Administering DHCP server and client |
 | **mFile** | Administering File Server |
 | **mGpmc** | Managing GPO solution |
 | **mHypv** | Administering Hyper-V |
@@ -14,3 +15,4 @@ This repository helps to keep all the PowerShell and Batch scripts needed for da
 | **mPrint** | Administering Print Server |
 | **mSmtp** | Administering SMTP Server and Email |
 | **mWsus** | Managing WSUS solution |
+
