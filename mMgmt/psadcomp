@@ -2,4 +2,7 @@
 Get-ADComputer -Filter * -Properties *
 Get-ADComputer -Filter * -Properties * | Select Name, DNSHostname, OperatingSystem, LastLogonDate
 
-#---
+#---Display All Computer
+Get-ADComputer -Filter * -SearchBase <AD_path>
+#---Example:
+Get-ADComputer -Filter * -SearchBase "OU=Computers,OU=MYS,OU=ASIA,DC=lfasia,DC=com"
