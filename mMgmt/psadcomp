@@ -1,0 +1,5 @@
+#---Display All Computer inside AD
+Get-ADComputer -Filter * -Properties *
+Get-ADComputer -Filter * -Properties * | Select Name, DNSHostname, OperatingSystem, LastLogonDate
+
+#---
