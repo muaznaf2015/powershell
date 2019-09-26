@@ -1,8 +1,16 @@
-#---Display All Computer inside AD
+#---Display All Computers inside AD
 Get-ADComputer -Filter * -Properties *
 Get-ADComputer -Filter * -Properties * | Select Name, DNSHostname, OperatingSystem, LastLogonDate
 
-#---Display All Computer
+#---Display All Computers
 Get-ADComputer -Filter * -SearchBase <AD_path>
 #---Example:
 Get-ADComputer -Filter * -SearchBase "OU=Computers,OU=MYS,OU=ASIA,DC=lfasia,DC=com"
+
+#---Example: Display All Computers with LastLogon
+$comps = Get-Content C:\Script\CompName.txt
+$arr = @()
+foreach ($comp in $comps){
+Get-ADComputer -identity $pc -Properties * | Sort-Object -Property LastLogonDate | Select Name, @{n='LastLogon';e={[DateTime]::FromFileTime($_.LastLogon).ToString('d MMMM')}} 
+}
+$arr | Export-Csv C:\Script\CompLastLogin=.csv
