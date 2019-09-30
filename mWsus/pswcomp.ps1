@@ -3,6 +3,10 @@ Get-WsusComputer
 
 #---Display all computers with all available properties
 Get-WsusComputer | Select-Object *
+#---Display all computers group by OS Version
+Get-WsusComputer | Group-Object -Property ClientVersion | Select Count,Name
+#---Display all computers group by Architecture
+Get-WsusComputer | Group-Object -Property OSArchitecture | Select Count,Name
 
 #---Display computer in WSUS from given name
 Get-WsusComputer -NameIncludes <computer_name>
