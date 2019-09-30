@@ -19,3 +19,6 @@ $wsus = [Microsoft.UpdateServices.Administration.AdminProxy]::getUpdateServer()
 foreach( $group in $wsus.GetComputerTargetGroups() ){
   Write-Host "Group: " $group.Name " - " $group.GetComputerTargets().Count " member(s)"
 }
+
+#---Display all computers, group them by Windows Version(Build Number)
+Get-WsusComputer | Group-Object -Property ClientVersion | Select Count,Name
