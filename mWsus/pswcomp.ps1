@@ -1,6 +1,9 @@
 #---Display all computers inside WSUS console
 Get-WsusComputer
 
+#---Display all computers with all available properties
+Get-WsusComputer | Select-Object *
+
 #---Display computer in WSUS from given name
 Get-WsusComputer -NameIncludes <computer_name>
 #---Example:
