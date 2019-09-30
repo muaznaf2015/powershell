@@ -7,6 +7,8 @@ Get-WsusComputer | Select-Object *
 Get-WsusComputer | Group-Object -Property ClientVersion | Select Count,Name
 #---Display all computers group by Architecture
 Get-WsusComputer | Group-Object -Property OSArchitecture | Select Count,Name
+#----------------Client version 1803 and x64
+Get-WsusComputer | Select FullDomainName,ClientVersion,OSArchitecture | Where-Object {$_.OSArchitecture -like "*64*" -and $_.ClientVersion -like "10.0.17134*"}
 
 #---Display computer in WSUS from given name
 Get-WsusComputer -NameIncludes <computer_name>
