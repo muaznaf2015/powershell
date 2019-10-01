@@ -1,1 +1,3 @@
-### ***Administering AD Account (Computer, User)***
+### ***Administering AD Account (User)***
+
+*Also can refer mMgmt to manage computer
